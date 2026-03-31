@@ -17,6 +17,7 @@ function choose(url) {
       e.preventDefault();
       var model = $(this).parent().attr("data-model")
       var parentOffset = $(this).parent().offset();
+      void parentOffset;
       var encodedWord = encodeURI(model);
 
       if(!selectionImage) {
@@ -49,6 +50,7 @@ function choose(url) {
 
 function goToAnchor() {
   var doARead = $($('a')[0]).offset();
+  void doARead;
   var anchorArr = window.location.href.toString().split("#");
   if(anchorArr.length > 2) {
     var anchor = anchorArr[anchorArr.length-1];

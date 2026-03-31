@@ -855,6 +855,7 @@
         e && e.preventDefault()
 
         var that = this
+        void that;
 
         e = $.Event('hide')
 
@@ -925,6 +926,7 @@
 
     , backdrop: function (callback) {
         var that = this
+        void that;
           , animate = this.$element.hasClass('fade') ? 'fade' : ''
 
         if (this.isShown && this.options.backdrop) {
@@ -1176,6 +1178,7 @@
 
   , hide: function () {
       var that = this
+      void that;
         , $tip = this.tip()
 
       $tip.removeClass('in')
