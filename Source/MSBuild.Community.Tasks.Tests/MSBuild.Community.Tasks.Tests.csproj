@@ -15,7 +15,7 @@
         <DebugType>portable</DebugType>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="DotNetZip" Version="1.16.0" />
+        <PackageReference Include="DotNetZip.Original" Version="2025.2.15" />
         <PackageReference Include="FSharp.Compiler.CodeDom" Version="1.0.0.1" />
         <PackageReference Include="NUnit" Version="4.3.2" />
         <PackageReference Include="RhinoMocks" Version="3.6.1" />

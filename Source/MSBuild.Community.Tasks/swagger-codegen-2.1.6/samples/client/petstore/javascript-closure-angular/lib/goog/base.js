@@ -387,7 +387,7 @@ goog.global.CLOSURE_NO_DEPS;
  * The function is passed the script source, which is a relative URI. It should
  * return true if the script was imported, false otherwise.
  */
-goog.global.CLOSURE_IMPORT_SCRIPT;
+// removed useless expression (CodeQL): goog.global.CLOSURE_IMPORT_SCRIPT;
 
 
 /**

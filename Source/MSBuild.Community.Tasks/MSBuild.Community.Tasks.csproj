@@ -19,7 +19,7 @@
         <EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="DotNetZip" Version="1.16.0" />
+        <PackageReference Include="DotNetZip.Original" Version="2025.2.15" />
         <PackageReference Include="FSharp.Compiler.CodeDom" Version="1.0.0.1" />
         <PackageReference Include="autorest" Version="0.16.0" />
         <PackageReference Include="Mono.Cecil" Version="0.11.6" />
@@ -33,6 +33,7 @@
         <PackageReference Include="Microsoft.Build.Framework" Version="15.9.20" />
         <PackageReference Include="Microsoft.Build.Utilities.Core" Version="15.9.20" />
         <PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" />
+        <PackageReference Include="System.Drawing.Common" Version="8.0.20" />
         <PackageReference Include="System.DirectoryServices" Version="10.0.0" />
         <PackageReference Include="System.Management" Version="10.0.0" />
         <PackageReference Include="System.ServiceProcess.ServiceController" Version="10.0.0" />
